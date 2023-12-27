@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BOX MODEL</title>
+    <style>
+        #center{
+            text-align: center;
+            color: rgb(237, 33, 74);
+        }
+        
+        .main{
+            border: 2px dotted black;
+            text-align: top;
+            background-color: brown;
+            padding: 1px 50px 50px 50px;
+            margin: 5px 800px 0px 10px;
+            
+
+        }
+        .child1{
+            border: 2px solid grey;
+            background-color: antiquewhite;
+            padding: 1px 50px 50px 50px;
+            margin: 10px;
+        }
+        .child11{
+            border: 2px solid pink;
+            background-color: grey;
+            padding: 1px 50px 50px 50px;
+        }
+        .child111{
+            border: 2px solid grey;
+            background-color: aqua;
+            margin: 10px;
+            padding: 2px;
+            text-align: center;
+        }
+
+        .main1{
+            border: 2px solid black;
+            text-align: top;
+            background-color: rgb(209, 107, 107);
+            padding: 1px 50px 50px 50px;
+            margin: -425px 5px 0px 800px;
+        }
+
+        .child2{
+            border: 2px solid grey;
+            background-color: rgb(236, 154, 46);
+            padding: 1px 50px 50px 50px;
+            margin: 10px;
+        }
+
+        .child21{
+            border: 2px solid pink;
+            background-color: rgb(85, 233, 114);
+            padding: 1px 50px 50px 50px;
+        }
+        .child211{
+            border: 2px solid grey;
+            background-color: rgb(139, 199, 199);
+            margin: 10px;
+            padding: 2px;
+            text-align: center;
+        }
+
+        .main2{
+            border: 2px solid black;
+            text-align: top;
+            background-color: rgba(212, 21, 21, 0.268);
+            padding: 1px 50px 50px 50px;
+            margin: 20px 293px 0px 310px;
+            
+
+        }
+        .child3{
+            border: 2px solid grey;
+            background-color: rgba(98, 59, 9, 0.658);
+            padding: 1px 50px 50px 50px;
+            margin: 10px;
+        }
+        .child31{
+            border: 2px solid pink;
+            background-color: rgba(201, 43, 43, 0.759);
+            padding: 1px 50px 50px 50px;
+        }
+        .child311{
+            border: 2px solid grey;
+            background-color: rgba(9, 106, 138, 0.664);
+            margin: 10px;
+            padding: 2px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div id="center"><h1>CSS BOX MODEL</h1></div>
+        <div class="main"> <h3>Margin</h3>
+            <div class="child1"> <h3>Border</h3>
+                <div class="child11"> <h3>Paddding</h3>
+                    <div class="child111">
+                        <h3>Content</h3>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    
+    <div class="main1"> <h3>Margin</h3>
+        <div class="child2"> <h3>Border</h3>
+            <div class="child21"> <h3>Paddding</h3>
+                <div class="child211">
+                    <h3>Content</h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="main2"> <h3>Margin</h3>
+        <div class="child3"> <h3>Border</h3>
+            <div class="child31"> <h3>Paddding</h3>
+                <div class="child311">
+                    <h3>Content</h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
